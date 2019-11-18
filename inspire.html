@@ -1,0 +1,487 @@
+
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8">
+    <title>AWS download - INSPIRE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Finn Jordal, MBBL">
+
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons 
+    <link rel="shortcut icon" href="favicon.ico"  type="image/vnd.microsoft.icon"> -->
+    <link rel="shortcut icon" href="http://mbbl.dk/sites/mbblv2.omega.oitudv.dk/themes/livogland/favicon.ico"  type="image/vnd.microsoft.icon">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.html">AWS Download</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="index.html">Startside</a></li>
+              <li  class="active"><a href="inspire.html">INSPIRE</a></li>
+              <li><a href="csv.html">CVS</a></li>
+              <li><a href="licens.html">Brugsbetingelser</a></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <h1>INSPIRE Download Service</h1>
+      <p class='alert alert-error'> <b>INSPIRE Download Service udfases d. 31. marts 2020.</b> Der henvises til <a href="https://kortforsyningen.dk/indhold/inspire-download">INSPIRE Download 
+      <p>INSPIRE Download Service, som er en del af <a href="http://aws.dk">AWS suiten</a>, udstiller data om Danmarks adresser efter INSPIRE direktivet.</p>
+      <p>INSPIRE Download Servicen udstiller en fil per kommune, som hver især rummer data om den aktuelle kommunes adresser. Derudover udstilles et ATOM feed, som rummer metadata om de enkelte kommunefiler, som f.eks.titel, ejer, sidst opdateret og URL reference. Formatet af kommunefilerne og ATOM feed'et er beskrevet i <a href= "http://inspire.jrc.ec.europa.eu/documents/Network_Services/Technical_Guidance_Download_Services_3.0.pdf">Technical Guidance for the implementation of INSPIRE Download Services</a>. Filerne er <a href="https://en.wikipedia.org/wiki/Gzip">gzippet</a> og kan f.eks. unzippes med med det gratis <a href="http://www.7-zip.org/">7-zip program</a>
+      </p>
+      <p>Filerne opdateres ugentligt natten mellem søndag og mandag. Fra en adresse opdateres i BBR til den kan downloades går der fra 6 til 13 døgn.</p>
+      <h2>Download her</h2>
+      <p>
+      Nedenfor linkes til de enkelte filer:
+      </p>
+      <h3>ATOM feed</h3>
+      <p>
+        <a href="http://file.aws.dk/inspire/AtomInspireAddresses.xml">Atom feedet</a>
+      </p>
+      <h3>Kommunefiler</h3>
+      <p>
+      Nedenfor kan de enkelte kommunefiler downloades.
+      </p>
+      <div class="row">
+      <div class="span6">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Kommune</th>
+            <th>INSPIRE fil</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>0101 København</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0101.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0147 Frederiksberg</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0147.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0151 Ballerup</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0151.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0153 Brøndby</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0153.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0155 Dragør</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0155.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0157 Gentofte</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0157.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0159 Gladsaxe</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0159.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0161 Glostrup</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0161.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0163 Herlev</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0163.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0165 Albertslund</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0165.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0167 Hvidovre</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0167.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0169 Høje Taastrup</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0169.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0173 Lyngby-Taarbæk</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0173.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0175 Rødovre</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0175.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0183 Ishøj</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0183.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0185 Tårnby</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0185.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0187 Vallensbæk</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0187.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0190 Furesø</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0190.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0201 Allerød</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0201.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0210 Fredensborg</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0210.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0217 Helsingør</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0217.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0219 Hillerød</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0219.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0223 Hørsholm</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0223.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0230 Rudersdal</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0230.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0240 Egedal</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0240.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0250 Frederikssund</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0250.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0253 Greve</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0253.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0259 Køge</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0259.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0260 Halsnæs</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0260.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0265 Roskilde</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0265.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0269 Solrød</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0269.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0270 Gribskov</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0270.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0306 Odsherred</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0306.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0316 Holbæk</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0316.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0320 Faxe</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0320.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0326 Kalundborg</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0326.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0329 Ringsted</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0329.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0330 Slagelse</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0330.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0336 Stevns</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0336.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0340 Sorø</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0340.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0350 Lejre</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0350.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0360 Lolland</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0360.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0370 Næstved</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0370.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0376 Guldborgsund</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0376.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0390 Vordingborg</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0390.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0400 Bornholm</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0400.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0410 Middelfart</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0410.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0420 Assens</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0420.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0430 Faaborg-Midtfyn</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0430.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0440 Kerteminde</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0440.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0450 Nyborg</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0450.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0461 Odense</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0461.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0479 Svendborg</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0479.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0480 Nordfyns</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0480.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0482 Langeland</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0482.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0492 Ærø</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0492.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0510 Haderslev</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0510.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0530 Billund</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0530.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0540 Sønderborg</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0540.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0550 Tønder</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0550.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0561 Esbjerg</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0561.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0563 Fanø</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0563.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0573 Varde</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0573.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0575 Vejen</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0575.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0580 Aabenraa</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0580.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0607 Fredericia</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0607.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0615 Horsens</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0615.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0621 Kolding</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0621.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0630 Vejle</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0630.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0657 Herning</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0657.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0661 Holstebro</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0661.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0665 Lemvig</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0665.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0671 Struer</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0671.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0706 Syddjurs</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0706.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0707 Norddjurs</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0707.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0710 Favrskov</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0727 Odder</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0727.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0730 Randers</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0730.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0740 Silkeborg</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0740.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0741 Samsø</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0741.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0746 Skanderborg</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0746.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0751 Aarhus</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0751.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0756 Ikast-Brande</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0756.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0760 Ringkøbing-Skjern</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0760.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0766 Hedensted</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0766.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0773 Morsø</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0773.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0779 Skive</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0779.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0787 Thisted</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0787.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0791 Viborg</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0791.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0810 Brønderslev</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0810.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0813 Frederikshavn</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0813.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0820 Vesthimmerlands</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0820.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0825 Læsø</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0825.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0840 Rebild</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0840.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0846 Mariagerfjord</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0846.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0849 Jammerbugt</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0849.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0851 Aalborg</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0851.xml.gz">Download</td>
+          </tr>
+          <tr>
+            <td>0860 Hjørring</td>
+            <td><a href="http://file.aws.dk/inspire/Addresses-0860.xml.gz">Download</td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+      <div class="span6"></div>
+    </div>
+
+    </div> <!-- /container -->
+
+    <footer class="footer">Ministriet for By, Bolig og Landdistrikter</footer>
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="bootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
